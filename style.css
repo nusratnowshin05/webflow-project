@@ -115,4 +115,84 @@ nav > .sign-button {
   font-size: 16px;
 }
 
+.user {
+  width: 100%;
+  min-height: 400px;
+  background-color: rgb(235, 239, 241);
+}
 
+.user-content {
+  max-width: 1240px;
+  margin: 0 auto;
+  height: 250px;
+  background-color: rgb(200, 203, 219);
+  border-radius: 20px;
+}
+
+.user-content h2 {
+  text-align: center;
+  padding-top: 30px;
+  font-size: 35px;
+  font-family: sans-serif;
+}
+
+.action-parent {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 60px;
+}
+
+.action-parent div h1 {
+  font-size: 50px;
+  color: rgb(70, 28, 223);
+}
+
+.action-parent div p {
+  font-size: 18px;
+  font-family: sans-serif;
+  color: gray;
+}
+
+.user-review {
+  width: 100%;
+  min-height: 600px;
+  background-color: rgb(242, 238, 247);
+}
+
+.user-comment {
+  max-width: 1249px;
+  margin: 0 auto;
+}
+
+.user-comment h1 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.fa-star{
+  color: rgb(223, 196, 45);
+}
+
+.comment-section{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 30px;
+  margin-top: 80px;
+  border-radius: 10px;
+}
+
+.icon-div{
+  background-color: white;
+  border-radius: 10px;
+  height: 300px;
+}
+
+.profile{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
