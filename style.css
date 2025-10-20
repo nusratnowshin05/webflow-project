@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: url(./images/Hero-bg.png);
+  width: 100vw;
+  height: 60vh;
+  background-position: top;
+  background-size: cover;
+}
+
+.head {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+nav > h2 {
+  font-size: 40px;
+  color: rgb(70, 28, 223);
+  font-family: sans-serif;
+}
+
+nav > .sign-button {
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  border-style: none;
+  background-color: rgb(70, 28, 223);
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.head-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  max-width: 640px;
+  margin: 30px auto;
+}
+
+.head-content > h1 {
+  font-size: 50px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.head-content > .focus-button {
+  width: 140px;
+  height: 40px;
+  border-radius: 10px;
+  border-style: none;
+  background-color: rgb(70, 28, 223);
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.webflow-content {
+  width: 100%;
+  min-height: 500px;
+  background-color: white;
+}
+
+.content-one {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.content-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.content-parent h1 {
+  font-family: sans-serif;
+  font-size: 60px;
+}
+
+.content-parent p {
+  font-size: 24px;
+  width: 80%;
+  text-align: left;
+  color: gray;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.content-parent img {
+  border-radius: 20px;
+}
+
+.launch-button {
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  border-style: none;
+  background-color: rgb(70, 28, 223);
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+
