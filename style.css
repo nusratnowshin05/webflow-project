@@ -358,7 +358,7 @@ label {
   font-weight: 600;
 }
 
-.form-line > button {
+form > button {
   width: 350px;
   height: 50px;
   background-color: rgb(70, 28, 223);
@@ -368,7 +368,7 @@ label {
   color: white;
 }
 
-.form-line > button:hover {
+form > button:hover {
   background-color: rgb(155, 100, 206);
 }
 
