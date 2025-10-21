@@ -7,7 +7,7 @@
 header {
   background-image: url(./images/Hero-bg.png);
   width: 100vw;
-  height: 60vh;
+  height: 80vh;
   background-position: top;
   background-size: cover;
 }
@@ -70,8 +70,8 @@ nav > .sign-button {
 
 .webflow-content {
   width: 100%;
-  min-height: 500px;
-  background-color: white;
+  min-height: 700px;
+  background-color: rgb(235, 239, 241);
 }
 
 .content-one {
@@ -83,7 +83,7 @@ nav > .sign-button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 100px;
+  padding: 100px;
 }
 
 .content-parent h1 {
@@ -161,7 +161,7 @@ nav > .sign-button {
 }
 
 .user-comment {
-  max-width: 1249px;
+  max-width: 1240px;
   margin: 0 auto;
 }
 
@@ -170,11 +170,11 @@ nav > .sign-button {
   padding-top: 20px;
 }
 
-.fa-star{
+.fa-star {
   color: rgb(223, 196, 45);
 }
 
-.comment-section{
+.comment-section {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -183,16 +183,20 @@ nav > .sign-button {
   border-radius: 10px;
 }
 
-.icon-div{
-  background-color: white;
-  border-radius: 10px;
-  height: 300px;
-}
-
-.profile{
+.profile {
   display: flex;
   justify-content: start;
   align-items: center;
   gap: 10px;
   margin-top: 20px;
+}
+
+.icon-div{
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-radius: 12px;
+  width: 350px;
+  padding: 20px;
+  gap: 12px;
 }
