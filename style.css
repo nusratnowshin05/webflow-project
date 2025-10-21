@@ -114,7 +114,7 @@ nav > .sign-button:hover {
 }
 
 .content-parent img {
-  border-radius: 20px;
+  border-radius: 30px;
 }
 
 .launch-button {
@@ -188,6 +188,8 @@ nav > .sign-button:hover {
 .user-comment h1 {
   text-align: center;
   padding-top: 20px;
+  font-size: 50px;
+  font-family: sans-serif;
 }
 
 .fa-star {
