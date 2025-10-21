@@ -84,7 +84,7 @@ nav > .sign-button:hover {
 .webflow-content {
   width: 100%;
   min-height: 700px;
-  background-color: rgb(235, 239, 241);
+  background-color: rgb(242, 238, 247);
 }
 
 .content-one {
@@ -136,7 +136,7 @@ nav > .sign-button:hover {
 .user {
   width: 100%;
   min-height: 400px;
-  background-color: rgb(235, 239, 241);
+  background-color: rgb(242, 238, 247);
 }
 
 .user-content {
